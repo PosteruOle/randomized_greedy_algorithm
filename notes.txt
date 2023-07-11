@@ -1,0 +1,39 @@
+Course name: Scientific computing
+Professor: dr Mladen Nikolic
+Assistant: Filip Vidojevic
+
+------------------------------------------------------------
+Theoretical lectures:
+
+Chapter 1: Introduction to Scientific Computing field
+
+Chapter 2: Solving problems using mathematical models
+
+Chapter 3: Function approximation
+
+Chapter 4: Numerical linear algebra
+
+Chapter 5: Mathematical optimization
+
+------------------------------------------------------------
+Practical lectures
+
+Week 1:
+
+Week 2:
+
+Week 3:
+
+Week 4:
+
+Week 5:
+
+Week 6:
+
+Week 7:
+
+Week 8:
+
+Week 9:
+
+Week 10:
