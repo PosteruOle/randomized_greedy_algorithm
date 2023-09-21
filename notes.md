@@ -67,4 +67,12 @@ Posledica nebalansiranog postupka spajanja je mreža gde su neki delovi mnogo vi
 
 # RG+ algoritam
 
+Identifikovanje ključnih tipova. Svi čvorovi koji su povezani samo čvorovima istog klastera su unutrašnji čvorovi u datom kasteru. Svi čvorovi koji su povezani sa bar jednim čvorom drugog klastera su granični čvorovu u datom klasteru. 
+
+Pretpostavka: Neki čvorovi će pripadati istoj grupi u svim mogućim klasterovanjima grafa. Identifikacija takvih čvorova i građenje odgovarajućih grupa dovodi do boljeg klasterovanja grafa. 
+
+Neka je $\mathcal{P}^* = \{C^{*1}, \ldots, C^{*x}\}$ set svih klasterovanja gde je $Q(C^{*t})$ lokalni optimum. Tražimo par čvorova $v_i, v_j$ koji su deo nekog klastera za sva lokalno optimalna klasterovanja, tj. $\forall_x : v_i \in C_k^{*t} \implies v_j \in C_k^{*t}$. Algoritam delimo u dve faze:
+1. Određivanje ključnih grupa: Naravno nije moguće izračunati $P^{*}$, jer bi tada znali klasterovanje sa maksimalnom modularnošću. Zbog toga, koristimo mali uzorak od $z$ klasterovanja sa visokom modularnošću. Njih je moguće dobiti pokretanjem RG algoritma (za svako inicijalno klasterovanje po jednom). Od inicijalnih klasterovanja, pravimo ključne grupe, tako što uzmemo prvo klasterovanje kao trenutni skup ključnih grupa. Iterativno delimo trenutni skup ključnih grupa pomoću novog klasterovanja. Neka je $g_{v_x, t}$  ključna grupa čvora $v_x$ u trenutku $t$ i $C_t(v_x)$ klaster čvora $v_x$ u klasterovanju $C_t$. Čvorovi $v_x$ i $v_y$ su u istorj trenutnoj ključnoj grupi nakon $t$ razdvajanja akko $g_{v_x, t-1} = g_{v_y, t-1} \land C_t(v_x) = C_t(v_y)$.
+2. Klasterovanje ključnih grupa: Pokrenemo RG algoritam gde su ključne grupe početno klasterovanje.
+
 
