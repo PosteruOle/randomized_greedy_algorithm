@@ -1,2 +1,0 @@
-C={node: [node] for node in G.nodes()}
-print(C)
