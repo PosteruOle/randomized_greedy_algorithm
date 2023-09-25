@@ -7,17 +7,15 @@ In this project we have tried to implement every algorithm that is mentioned and
 # Files and folders within repository
 The repository consist of following items. Every single one of them will be listed and briefly explained below:
 
-- Instances
+- Instances - a folder that contains graph instances with which we were working with;
 
-- randomized_greedy_algorithm.ipynb
+- Scripts - a folder that contains two short Python scripts that actually represent unoptimized implementation of plain greedy and randomized greedy algorithm; 
+  
+- randomized_greedy_algorithm.ipynb - the most important file in the repository. It contains short explanation and implementation of the algorithms mentioned in the research paper we refer to in previous section; 
 
-- plain_gredy.ipynb
-
-- pg.py
-
-- rg.py
-
-- out.pdf
+- notes.md - just a file from which we generate output.pdf file;
+  
+- output.pdf - a file that contains all of our understandings of the things discused in the paper.
 
 # Team members
 - Andrija Urošević
