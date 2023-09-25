@@ -5,7 +5,7 @@ This repository contains the student project that has been created for the purpo
 In this project we have tried to implement every algorithm that is mentioned and described in the "Cluster Cores and Modularity Maximization" research paper written by Michael Ovelgonne and Andreas Geyer-Schulz. Those algorithms are: plain greedy algorithm, randomized greedy algorithm and the fast randomized greedy algorithm. We have also implemented some terms and definitions that are used for validating the quality of graph clustering like modularity function.
 
 # Files and folders within repository
-The repository consist of following items. Every single one of them will be listed and briefly explained below:
+The repository consist of the following items. Every single one of them will be listed and briefly explained below:
 
 - Instances - a folder that contains graph instances with which we were working with;
 
