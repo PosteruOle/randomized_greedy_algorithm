@@ -15,7 +15,7 @@ The repository consist of following items. Every single one of them will be list
 
 - notes.md - just a file from which we generate output.pdf file;
   
-- output.pdf - a file that contains all of our understandings of the things discused in the paper.
+- output.pdf - a file that contains all of our understandings of the things discussed in the paper.
 
 # Team members
 - Andrija Urošević
