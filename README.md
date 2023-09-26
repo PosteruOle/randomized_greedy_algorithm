@@ -22,4 +22,4 @@ The repository consist of the following items. Every single one of them will be 
 - Petar Tešić
 
 # References
-Everything implemented in the randomized_greedy_algorithm.ipynb Jupyter notebook is based on the couple of time mentioned research paper that you can find on this link https://ieeexplore.ieee.org/document/5693431. 
+Everything implemented in the randomized_greedy_algorithm.ipynb Jupyter notebook is based on the, already couple of times mentioned, research paper that you can find on this link https://ieeexplore.ieee.org/document/5693431. 
