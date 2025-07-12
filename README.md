@@ -1,25 +1,48 @@
-# Randomized greedy algorithm
-This repository contains the student project that has been created for the purpose of Scientific Computing course on the master studies at the Faculty of Mathematics, University of Belgrade.
+# Randomized Greedy Algorithm for Graph Clustering
 
-# About the project
-In this project we have tried to implement every algorithm that is mentioned and described in the "Cluster Cores and Modularity Maximization" research paper written by Michael Ovelgonne and Andreas Geyer-Schulz. Those algorithms are: plain greedy algorithm, randomized greedy algorithm and the fast randomized greedy algorithm. We have also implemented some terms and definitions that are used for validating the quality of graph clustering like modularity function.
+This repository contains a student project developed as part of the **Scientific Computing** course in the master's program at the **Faculty of Mathematics, University of Belgrade**.
 
-# Files and folders within repository
-The repository consist of the following items. Every single one of them will be listed and briefly explained below:
+---
 
-- Instances - a folder that contains graph instances with which we were working with;
+## 📌 Project Overview
 
-- Scripts - a folder that contains two short Python scripts that actually represent unoptimized implementation of plain greedy and randomized greedy algorithm; 
-  
-- randomized_greedy_algorithm.ipynb - the most important file in the repository. It contains short explanation and implementation of the algorithms mentioned in the research paper we refer to in previous section; 
+The goal of this project is to implement and experiment with clustering algorithms discussed in the research paper:
 
-- notes.md - just a file from which we generate output.pdf file;
-  
-- output.pdf - a file that contains all of our understandings of the things discussed in the paper.
+> **"Cluster Cores and Modularity Maximization"**  
+> *Michael Ovelgönne & Andreas Geyer-Schulz*  
+> [IEEE Link](https://ieeexplore.ieee.org/document/5693431)
 
-# Team members
-- Andrija Urošević
-- Petar Tešić
+Implemented algorithms include:
+- **Plain Greedy Algorithm**
+- **Randomized Greedy Algorithm**
+- **Fast Randomized Greedy Algorithm**
 
-# References
-Everything implemented in the randomized_greedy_algorithm.ipynb Jupyter notebook is based on the, already couple of times mentioned, research paper that you can find on this link https://ieeexplore.ieee.org/document/5693431. 
+Additionally, we’ve implemented relevant concepts like **modularity**, which is used to evaluate the quality of graph clustering.
+
+---
+
+## 📁 Repository Structure
+
+Here's a brief overview of the files and folders in this repository:
+
+| Path/File                        | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| `Instances/`                     | Graph instance files used for testing and experimentation.                 |
+| `Scripts/`                       | Basic Python implementations of the plain and randomized greedy algorithms.|
+| `randomized_greedy_algorithm.ipynb` | Main Jupyter notebook containing explanations and implementations of all algorithms. |
+| `notes.md`                       | Markdown notes used to generate the final project summary PDF.             |
+| `output.pdf`                     | Final write-up with our analysis, results, and understanding of the paper. |
+
+---
+
+## 👥 Authors
+
+- **Andrija Urošević**
+- **Petar Tešić**
+
+---
+
+## 📚 References
+
+All algorithm implementations and theoretical background are based on the paper:  
+**[Cluster Cores and Modularity Maximization – Michael Ovelgönne, Andreas Geyer-Schulz (2010)](https://ieeexplore.ieee.org/document/5693431)**
